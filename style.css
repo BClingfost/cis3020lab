@@ -14,6 +14,22 @@ p {
   font-family: Times New Roman, sans-serif;
 }
 
+p {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size 14px;
+  }
+}
+
 h1 {
   color: #005a9c;
 }
@@ -23,26 +39,4 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
-}
-
-.container {
-  display: flex;
-}
-
-.main-content {
-  width: 70%;
-}
-
-.sidebar {
-  width: 30%;
-}
-
-@media (max-width: 600px) {
-  .container {
-    flex-direction: coloumn;
-  }
-
-  .main-content, .sidebar {
-    width: 100%;
-  }
 }
