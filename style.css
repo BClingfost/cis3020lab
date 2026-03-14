@@ -34,7 +34,7 @@ img {
 }
 
 .sidebar {
-  width: 30%
+  width: 30%;
 }
 
 @media (max-width: 600px) {
