@@ -24,3 +24,25 @@ img {
   margin-right: auto;
   max-width: 50%;
 }
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  width: 70%;
+}
+
+.sidebar {
+  width: 30%
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: coloumn;
+  }
+
+  .main-content, .sidebar {
+    width: 100%;
+  }
+}
